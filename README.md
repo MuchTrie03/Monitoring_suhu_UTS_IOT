@@ -34,7 +34,12 @@ flutter pub get
 
 
 3. Run the App
+
+jalankan server dengan ketik
+python server.py
+pada terminal, 
 Jika Anda menggunakan emulator Android, pastikan emulator tersebut sedang berjalan, atau hubungkan perangkat Android fisik melalui USB.
-Untuk pengembangan iOS, pastikan simulator iOS sudah berjalan, atau hubungkan perangkat iPhone.
 
 flutter run
+
+
