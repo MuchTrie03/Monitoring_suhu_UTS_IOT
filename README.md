@@ -39,13 +39,13 @@ Instal Dependensi Flutter
 
 Masuk ke direktori proyek dan instal dependensi Flutter yang dibutuhkan:
 
-bash
-Copy code
 ```
 cd dashboard_monitoring_suhu
 
 ```
+```
 flutter pub get
+```
 Perintah ini akan mengunduh dan menginstal semua dependensi yang tercantum di file pubspec.yaml.
 
 Menjalankan Server Backend
@@ -53,9 +53,6 @@ Menjalankan Server Backend
 Proyek ini membutuhkan server backend untuk menyediakan data suhu. Anda perlu menjalankan server secara lokal terlebih dahulu.
 
 Pastikan Python telah terinstal pada sistem Anda. Lalu, masuk ke folder yang berisi script server (server.py) dan jalankan perintah berikut:
-
-bash
-Copy code
 ```
 python server.py
 ```
@@ -69,8 +66,6 @@ Jika Anda menggunakan emulator Android, pastikan emulator sudah berjalan.
 Atau, hubungkan perangkat fisik melalui USB.
 Jalankan aplikasi Flutter dengan perintah berikut:
 
-bash
-Copy code
 ```
 flutter run
 ```
